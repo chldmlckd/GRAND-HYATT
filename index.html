@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주 드림타워 복합리조트 | 그랜드 하얏트 제주</title>
+    <link href="./img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./css/layout.css" rel="stylesheet" type="text/css">
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <script src="./script/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="headweb">
+            <a href="index.html" title="메인페이지바로가기"><h1><img src="./img/h1_jejuDreamTower02.png" alt="로고"></h1></a>
+            <div class="headtop">
+                <ul>
+                    <li><a href="./sub/log-in.html" title="로그인 페이지 바로가기">로그인</a></li>
+                    <li><a href="javascript:void(0);">About Us</a></li>
+                    <li><a href="javascript:void(0);">오시는길</a></li>
+                    <li>한국어<i class='fas fa-angle-down'></i></li>
+                </ul>
+            </div>
+            <div class="headbom">
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" title="드림 오퍼">드림 오퍼</a>
+                            <ul class="sub sub1">
+                                <li><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="객실">객실</a></li>
+                                <li><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="다이닝">다이닝</a></li>
+                                <li><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="스파">스파</a></li>
+                                <li><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="쇼핑">쇼핑</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" title="객실">객실</a>
+                            <ul class="sub sub2">
+                                <li>
+                                    <p><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="객실 개요">객실 개요</a></p>
+                                    <ul class="sub_room">
+                                        <li>객실</li>
+                                        <li><a href="javascript:void(0);" title="65m² 킹 룸">65m² 킹 룸</a></li>
+                                        <li><a href="javascript:void(0);" title="65m² 트윈 룸">65m² 트윈 룸</a></li>
+                                    </ul>
+                                    <ul class="sub_suite">
+                                        <li>스위트</li>
+                                        <li><a href="javascript:void(0);" title="130m² 그랜드 스위트">130m² 그랜드 스위트</a></li>
+                                        <li><a href="javascript:void(0);" title="130m² 프리미어 스위트">130m² 프리미어 스위트</a></li>
+                                        <li><a href="javascript:void(0);" title="130m² 코너 스위트">130m² 코너 스위트</a></li>
+                                        <li><a href="javascript:void(0);" title="195m² 디플로매틱 스위트">195m² 디플로매틱 스위트</a></li>
+                                        <li><a href="javascript:void(0);" title="260m² 프레지덴셜 스위트">260m² 프레지덴셜 스위트</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0)" title="다이닝">다이닝</a>
+                            <ul class="sub sub3">
+                                <li>
+                                    <p><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="객실 개요">다이닝 개요</a></p>
+                                    <ul>
+                                        <li>중식</li>
+                                        <li><a href="javascript:void(0);" title="차이나 하우스">차이나 하우스</a></li>
+                                        <li><a href="javascript:void(0);" title="제주 핫팟">제주 핫팟</a></li>
+                                        <li><a href="javascript:void(0);" title="99 밸리">99 밸리</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>일식</li>
+                                        <li><a href="javascript:void(0);" title="차이나 하우스">유메야마</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>한식</li>
+                                        <li><a href="javascript:void(0);" title="녹나무">녹나무</a></li>
+                                        <li><a href="javascript:void(0);" title="포차">포차</a></li>
+                                        <li><a href="javascript:void(0);" title="팝업 플라자">팝업 플라자</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>양식</li>
+                                        <li><a href="javascript:void(0);" title="그랜드 키친 뷔페">그랜드 키친 뷔페</a></li>
+                                        <li><a href="javascript:void(0);" title="카페 8 캐주얼 레스토랑">카페 8 캐주얼 레스토랑</a></li>
+                                        <li><a href="javascript:void(0);" title="스테이크 하우스">스테이크 하우스</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>카페 & 바</li>
+                                        <li><a href="javascript:void(0);" title="갤러리 라운지">갤러리 라운지</a></li>
+                                        <li><a href="javascript:void(0);" title="델리">델리</a></li>
+                                        <li><a href="javascript:void(0);" title="130m² 코너 스위트">라운지 38</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" title="쇼핑">쇼핑</a></li>
+                        <li><a href="javascript:void(0);" title="어메니티">어메니티</a>
+                            <ul class="sub sub4">
+                                <li>
+                                    <p><i class='fas fa-certificate'></i><a href="javascript:void(0);" title="객실 개요">시설 개요</a></p>
+                                    <ul>
+                                        <li>풀데크</li>
+                                        <li><a href="javascript:void(0);" title="야외 수영장">야외 수영장</a></li>
+                                        <li><a href="javascript:void(0);" title="실내 수영장">실내 수영장</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>스파 · 피트니스</li>
+                                        <li><a href="javascript:void(0);" title="로즈베이 스파">로즈베이 스파</a></li>
+                                        <li><a href="javascript:void(0);" title="찜질 스파">찜질 스파</a></li>
+                                        <li><a href="javascript:void(0);" title="피트니스 센터">피트니스 센터</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>편의 시설</li>
+                                        <li><a href="javascript:void(0);" title="그랜드 클럽">그랜드 클럽</a></li>
+                                        <li><a href="javascript:void(0);" title="키즈 아케이드">키즈 아케이드</a></li>
+                                        <li><a href="javascript:void(0);" title="그랜드 플라자">그랜드 플라자</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li>연회 · 이벤트</li>
+                                        <li><a href="javascript:void(0);" title="미팅 & 웨딩">미팅 & 웨딩</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <input type="button" value="객실 예약" id="reserve">
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="visual">
+            <h2>비쥬얼 슬라이드</h2>
+            <div class="swiper maSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <p class="txt txt1">STAY & ENJOY<br>
+                        JEJU DREAM TOWER<br>
+                        GRAND HYATT JEJU</p>
+                        <a href="javascript:void(0);" title="자세히보기" class="v_btn">자세히 보기</a>
+                    <figure>
+                        <img src="./img/visual.jpg" alt="">
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <p class="txt txt2">MODERN KOREAN LIFESTYLE</p>
+                    <figure>
+                    <video src="./video/banner1.mp4" autoplay muted loop></video>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <p class="txt txt3">MODERN KOREAN LIFESTYLE</p>
+                    <figure>
+                    <video src="./video/banner3.mp4" autoplay muted loop></video>
+                    </figure>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="data">
+                    <div class="hote">
+                        <img src="./img/ico_hotel02.png" alt="">
+                        <a href="javascript:void(0);" title="">
+                            <span>1600</span>
+                            <p>객실&스위트</p>
+                        </a>
+                    </div>
+                    <div class="hote">
+                        <img src="./img/ico_dine01.png" alt="">
+                        <a href="javascript:void(0);" title="">
+                            <span>14</span>
+                            <p>레스토랑&바</p>
+                        </a>
+                    </div>
+                    <div class="hote">
+                        <img src="./img/ico_dress01.png" alt="">
+                        <a href="javascript:void(0);" title="">
+                            <span>200</span>
+                            <p>K패션치자이너</p>
+                        </a>
+                    </div>
+                    <div class="time">
+                        <p id="date"></p>
+                        <p id="weather"></p>
+                    </div>
+                </div>
+              </div>
+        </article>
+        <article class="dream">
+            <h2>드림오버</h2> 
+            <div class="inner">
+                <div class="d_title">
+                    <h2>드림 오퍼</h2>
+                    <p>당신이 꿈꾸는 특별한 제주 여행의 모든 것 - 낭만적인 가을, 제주 최고 랜드마크로 럭셔리 호캉스를 떠나보세요</p>
+                </div>
+                <div class="d_box d_box1">
+                    <a href="javascript:void(0);" title="">
+                        <div class="d_img_box">
+                            <img src="./img/dream1.jpg" alt="드림오더">
+                        </div>
+                        <div class="d_txt_box">
+                            <span>HOT DEAL</span>
+                            <h3>가을 맞이 늦캉스</h3>
+                            <p>최저가 278,000원부터 즐기는 가을 늦캉스<br>
+                                무료 웰컴 스낵 & 드링크 혜택까지!</p>
+                        </div> 
+                    </a>
+                </div>
+                <div class="d_box d_box2">
+                    <a href="javascript:void(0);" title="">
+                        <div class="d_img_box">
+                            <img src="./img/dream2.jpg" alt="드림오더">
+                        </div>
+                        <div class="d_txt_box">
+                            <span>BED AND BREAKFAST</span>
+                            <h3>베드 앤 브랙퍼스트</h3>
+                            <p>5개 옵션에서 즐기는 프로미엄 조식! 최고<br>
+                                아침식사로 든든한 하루를 시작하세요</p>
+                        </div> 
+                    </a>
+                </div>
+                <div class="d_box d_box3">
+                    <a href="javascript:void(0);" title="">
+                        <div class="d_img_box">
+                            <img src="./img/dream3.jpg" alt="드림오더">
+                        </div>
+                        <div class="d_txt_box">
+                            <span>GRAND CLUB ACCESS</span>
+                            <h3>그랜드 클럽 패키지</h3>
+                            <p>프라이빗 체크인부터 조식, 티 & 스낵, 이브<br>
+                                닝 칵테일까지! 남다른 혜택을 경험하세요</p>
+                        </div> 
+                    </a>
+                </div>
+                <div class="d_box d_box4">
+                    <a href="javascript:void(0);" title="">
+                        <div class="d_img_box">
+                            <img src="./img/dream4.png" alt="드림오더">
+                        </div>
+                        <div class="d_txt_box">
+                            <span>stay &amp;  Get Resort Dollars</span>
+                            <h3>리조트 달러 패키지</h3>
+                            <p>1박당 50,000원 DREAM! 리조트 달러<br>
+                                패키지로 당신의 호캉스를 레벨업 하세요</p>
+                        </div> 
+                    </a>
+                </div>
+                <div class="d_box d_box5">
+                    <a href="javascript:void(0);" title="">
+                        <div class="d_img_box">
+                            <img src="./img/dream5.jpg" alt="드림오더">
+                        </div>
+                        <div class="d_txt_box">
+                            <span>KID’S FUN DAY</span>
+                            <h3>키즈 펀 데이</h3>
+                            <p>소중한 가족과 즐기는 FUN 여행! 제주<br>
+                                어트랙션에서 특별한 추억을 만들어보세요</p>
+                        </div> 
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="cooking">
+            <h2>요리</h2>
+            <div class="inner">
+                <div class="swiper coSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking1.jpg" alt="요리">
+                                <div class="cotxt cotxt1">
+                                    <h3><img src="./img/h1_noknamu01.png" alt="녹나무"></h3>
+                                    <p>당일 엄선한 한우 통갈비에서<br> 가장 맛있고 귀한 특수 부위만을<br> 모았습니다
+                                        쫄깃하고 고소한 <br>갈비살, 눈꽃처럼 마블링이 살아있는 <br>꽃살과 살치살, 소 한마리에서 소량만 <br>나오는 안창살까지
+                                        육즙과 <br>육향이 가득한최고급<br> 한우 모둠을 맛보세요</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>녹나무</p>
+                                <h3>한우 스페셜 차림 출시</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img ">
+                                <img src="./img/cooking2.jpg" alt="요리">
+                                <div class="cotxt cotxt2">
+                                    <h3><img src="./img/h1_chinaHouse01.png" alt="차이나 하우스"></h3>
+                                    <p>신선한 해산물로 만든 랍스터는 튀기고,<br> 굽고, 매콤한 칠리 소스에 볶는 등 다양한<br> 요리를 통해 달콤하고 풍부한 <br>감칠맛을 선사합니다
+                                        단백질이 풍부하고<br> 지방이 적은 랍스터는 건강식으로 즐기실 수<br> 있으며
+                                        특별한 날 혹은 가족과 친구들과<br> 함께하는 모임에서도 부담없이<br> 즐길 수 있는 완벽한 요리입니다</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>차이나 하우스</p>
+                                <h3>고급 중식 랍스터 요리 10선</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking3.jpg" alt="요리">
+                                <div class="cotxt cotxt3">
+                                    <h3><img src="./img/h1_lounge3801.png" alt="라운지 38"></h3>
+                                    <p>와인, 샴페인, 위스키 등 주류를 주문하시고<br>
+                                        월드 클래스 셰프가 준비한<br>토마토 부르게스타, 맥 앤 치즈 볼 등<br>다양한 스낵을 맛보세요
+                                        분위기에<br>따라 즐기는 프리미엄 와인,<br>로맨틱한 분위기를 완성하는 샴페인,<br>
+                                        진한 오크향의 위스키 등<br> 다양한 주류가 마련되어 있습니다</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>라운지 38</p>
+                                <h3>프리미엄 바틀&스낵 세트</h3>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking4.jpg" alt="요리">
+                                <div class="cotxt cotxt2">
+                                    <h3><img src="./img/h1_chinaHouse01.png" alt="차이나 하우스"></h3>
+                                    <p>샹그릴라 호텔그룹 중식총괄 출신 <br>빈센트 셰프가 다양한 딤섬 런치 메뉴를<br>선보입니다.
+                                        새우관자 딤섬, 새우죽순 하가우, 소고기 슈마이등이 포함된 인기 메뉴 중<br>
+                                        좋아하는 딤섬을 골라 즐길 수 있는<br>딤섬 패키지를 만나보세요
+                                        딤섬 5종과<br>광동식 오리구이로 구성된<br>런치 세트도 즐길 수 있습니다</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>차이나 하우스</p>
+                                <h3>딤섬 런치 세트 메뉴</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking5.jpg" alt="요리">
+                                <div class="cotxt cotxt4">
+                                    <h3><img src="./img/h1_yumeyama01.png" alt="유메야마 일식당"></h3>
+                                    <p>그랜드 하얏트 두바이와 바하마<br>SLS 호텔의 주방을 책임진<br>스타 셰프 코지마가 이자카야 오마카세를<br>선보입니다.
+                                        마블링이 살아있는<br> 한우 카르파치오, 신선한 제철 사시미,<br>프리미엄 재료를 활용한 테판야키 등<br>
+                                        고급 식재료로 계절감을 살린<br>7가지 메뉴를 만나보세요<br>
+                                        합리적인 가격으로 선보이는 1만원대<br>단품 메뉴와 다양한 주류도<br>즐기실 수 있습니다</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>유메야마 일식당</p>
+                                <h3>이자카야 오마카세 출시</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking6.jpg" alt="요리">
+                                <div class="cotxt cotxt5">
+                                    <h3><img src="./img/h1_jejuHotPot01.png" alt="제주 핫팟"></h3>
+                                    <p>무더위로 지친 몸을 확 풀어<br>줄 제주 핫팟의 신메뉴! 사천 출신의<br> 훠궈 전문 셰프 '우'가 누구나 맛있게<br>즐길 수 있는 정통 마라탕을 선보입니다.<br>
+                                        특제 땅콩 소스를 더해 깔끔하고<br>풍성한 국물맛을 자랑합니다.
+                                        모든 재료를<br>한데 넣어 끓이는 마라탕의<br>맛과 영양을 보존하기 위해 신선한<br>재료만을 엄선해 사용합니다.정통 마라탕과 <br>인기 사천 메뉴도 함께 즐겨보세요!</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>제주 핫팟</p>
+                                <h3>중국 정통 마라탕 출시</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking7.jpg" alt="요리">
+                                <div class="cotxt cotxt6">
+                                    <h3><img src="./img/h1_steakHouse01.png" alt="스테이크 하우스"></h3>
+                                    <p>싱가포르 마리나 베이 샌즈의 컷(CUT),<br>윈팰리스의 SW 스테이크 하우스<br>
+                                        총괄 셰프를 지낸 버튼이<br>럭셔리 브런치를 선보입니다.<br>
+                                        에피타이저부터 디저트까지<br>완벽한 코스로 만나보세요.</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>스테이크 하우스</p>
+                                <h3>스카이 브런치</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking8.jpg" alt="요리">
+                                <div class="cotxt cotxt7">
+                                    <h3><img src="./img/h1_pocha01.png" alt="포차"></h3>
+                                    <p>쫀득한 제주 흑돼지와 싱싱한<br>돌문어 등 입맛을 돋구는 <br>안주 플래터,
+                                        다양한 꼬치,<br>겉바속촉 모둠전 등<br> 한라산 소주 & 제주 맥주와 환상의 궁합을<br> 이루는
+                                        모두의 입맛을 만족시킬<br>새로운 메뉴가 펼쳐집니다.</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>포차</p>
+                                <h3>안주 플래터 출시 </h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="coinner">
+                            <a href="javascript:void(0);" title="">
+                            <div class="co_img">
+                                <img src="./img/cooking9.jpg" alt="스파">
+                                <div class="cotxt cotxt8">
+                                    <h3><img src="./img/h1_rosebaySpa01.png" alt="로즈베이 스파"></h3>
+                                    <p>로즈베이 스파에서<br>바디 트리트먼트를 받고
+                                        무더운 여름동안<br>지친 몸과 마음을 재충전하세요.</p>
+                                </div>
+                            </div>
+                            <div class="co_text">
+                                <p>로즈베이 스파</p>
+                                <h3>리프레시 인 로즈베이 스파</h3>
+                            </div>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-button-next"><i class='fas fa-arrow-circle-right'></i></div>
+                <div class="swiper-button-prev"><i class='fas fa-arrow-circle-left'></i></div>
+                <a href="javascript:void(0);" title="자세히 보기" class="btn">자세히 보기</a>
+            </div>
+        </article>
+        <article class="facilities1">
+            <h2>시설1</h2>
+            <div class="inner">
+                <div class="fa_title">
+                    <h3>스타일리시한 제주여행을 디자인하다<br>
+                        <span class="fa_title2">MODERN KOREAN LIFESTYLE</span></h3>
+                </div>
+                <div class="fa_b">
+                    <div class="fa_box fa_box1">
+                        <img src="./img/ent_14unique01.jpg" alt="레스토랑과 바">
+                        <p>14 레스토랑과 바</p>
+                        <div class="fa_txt">
+                            <p>세계 각국의 영감이 깃든 정통 요리부터<br>
+                                언제 어디서나 편안하게 즐길 수 있는 캐주얼 스낵까지<br>
+                                아시아와 유럽 대륙을 넘나드는 다채로운 미식의 향연</p>
+                                <a href="javascript:void(0);" title="자세히 보기" class="fa_btn">자세히 보기</a>
+                        </div>
+                    </div>
+                    <div class="fa_box fa_box2">
+                        <img src="./img/ent_hancollection01.jpg" alt="K패션몰 HAN 컬렉션">
+                        <p>K패션몰 HAN 컬렉션</p>
+                        <div class="fa_txt">
+                            <p>200여명의 K패션 디자이너들이 전하는<br>
+                                트렌디 패션 제안<br>
+                                14개의 품목별 편집숍과<br>
+                                포토제닉한 파사드에서 즐기는 쇼핑</p>
+                                <a href="javascript:void(0);" title="자세히 보기" class="fa_btn">자세히 보기</a>
+                        </div>
+                    </div>
+                    <div class="fa_box fa_box3">
+                        <img src="./img/ent_wellness01.jpg" alt="웰니스">
+                        <p>웰니스</p>
+                        <div class="fa_txt">
+                            <p>격조높은 한국식 찜질방과<br>
+                                프리미엄 스파에서 럭셔리 힐링의 시간을<br>
+                                제주의 풍광을 품은 풀데크에서 안락하고 여유로운 휴식을</p>
+                                <div class="fa_btns">
+                                    <a href="javascript:void(0);" title="찜질 스파" class="fa_btn">찜질 스파</a>
+                                    <a href="javascript:void(0);" title="로즈베이 스파" class="fa_btn">로즈베이 스파</a>
+                                    <a href="javascript:void(0);" title="야외 수영장" class="fa_btn">야외 수영장</a>
+                                    <a href="javascript:void(0);" title="실내 수영장" class="fa_btn">실내 수영장</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="facilities2">
+            <h2>SERVICES &#38; FACILITIES</h2>
+            <div class="fa_inner">
+                <div class="inner">
+                    <div class="fa2_box fa2_box1 scroll-spy">
+                        <img src="./img/facilities1.jpg" alt="실내 수영장" class="move move_right delay1">
+                        <div class="fa2_txt fa2_txt1 move move_left delay2">
+                            <h3>실내 수영장</h3>
+                            <p>8m 높이의 천장에서 쏟아지는 따듯한 햇살을 가득<br>
+                                담은 에메랄드 빛 풀에서 편안한 시간을 보내세요<br>
+                                넓게 펼쳐져 있는 유리 천장을 통해 아름다운 제주의<br>
+                                하늘을 바라 보며 쾌적하고 여유로운 수영을 즐길 수 있습니다<br>
+                                한국적인 곡선미를 모티브로 설계된 감성적인 자쿠지와<br>
+                                안락한 선베드는 오아시스 같은 휴식을 선사합니다</p>
+                        </div>
+                    </div>
+                    <div class="fa2_box fa2_box2 scroll-spy">
+                        <div class="fa2_txt fa2_txt2 move move_right delay2">
+                            <h3>그랜드 클럽</h3>
+                            <p>아시아 태평양 하얏트에서 가장 큰 규모의 그랜드<br>
+                                클럽에서 차원이 다른 고품격 서비스를 누려보세요<br>
+                                모던하고 우아한 라이브러리에서 통유리창 너머 제주 시내<br>
+                                전경을 바라보며 특별한 다이닝 서비스를 즐길 수 있습니다<br>
+                                프라이빗 체크인부터 조식, 이브닝 칵테일, 오후에는<br>
+                                 여유로운 티&스낵을 즐기며 품격 높은 호캉스를 완성하세요</p>
+                        </div>
+                        <img src="./img/facilities2.jpg" alt="그랜드 클럽" class="move move_left delay1">
+                    </div>
+                    <div class="fa2_box fa2_box3 scroll-spy">
+                        <img src="./img/facilities3.jpg" alt="야외 수영장" class="move move_right delay1">
+                        <div class="fa2_txt move move_left delay2">
+                            <h3>야외 수영장</h3>
+                            <p>국내 최대 규모 풀데크에 위치한 야외 수영장에서 제주의 수평선과<br>
+                                한라산의 파노라믹뷰를 조망하며 최상의 휴식을 누리세요<br>
+                                각 계절에 맞게 적합한 온도로 운영되는 온수 인피니티 풀과 자쿠지,<br>
+                                키즈 풀에서 도심에서 느낄수 없는 낭만의 시간을 가질 수 있습니다<br>
+                                카바나와 선베드에 누워 따사로운 제주의 햇살과 아름다운 일몰을<br>
+                                만끽하며 프라이빗한 나만의 여유를 즐겨보세요</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="room">
+            <h2>객실</h2>
+            <div class="inner">
+                <h3>LUXE ACCOMMODATIONS</h3>
+                <div class="ro_box ro_box1 scroll-spy">
+                    <a href="javascript:void(0);" title="스위트">
+                        <div class="ro_img ro_img1 move move_right delay1">
+                            
+                        </div>
+                        <div class="ro_txt move move_right delay2">
+                            <span>STAY</span>
+                            <h3>스위트</h3>
+                            <p>스위트룸 그 아상의 가치를 전해드리고픈 하얏트의<br>
+                                진심을 담았습니다. 제주도심과 바다를 한눈에<br>
+                                내려다 볼 수 있는 파노라믹 뷰와 함께 아늑하고 격조높은<br>
+                                최고급 객실에서 생애 최고의 휴식을 누리십시오.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="ro_box ro_box2 scroll-spy">
+                    <a href="javascript:void(0);" title="객실">
+                        <div class="ro_img ro_img2 move move_left delay1">
+                            
+                        </div>
+                        <div class="ro_txt move move_left delay2">
+                            <span>STAY</span>
+                            <h3>객실</h3>
+                            <p>고급 인테리어로 꾸며진 65m의 넓은 객실의 시원한 개방감,<br>
+                                바닥부터 천정까지 이어지는 통 유리창 너머의 제주 도심과 바다,<br>
+                                한라산 풍경이 오래도록 소중한 추억으로 기어될 것입니다.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="gallery">
+            <h2>갤러리</h2>
+            <div class="inner scroll-spy">
+                <h3>당신이 꿈꾸는 #드림호캉스</h3>
+                <div class="ga_box">
+                    <div class="img_box1 move move_right delay3"></div>
+                    <div class="img_box2 move move_top delay1"></div>
+                    <div class="img_box3 move move_top delay2"></div>
+                    <div class="img_box4 move move_left delay3"></div>
+                    <div class="img_box5 move move_right delay4"></div>
+                    <div class="img_box6 move move_bottom delay2"></div>
+                    <div class="img_box7 move move_left delay4"></div>
+                </div>
+                <a href="javascript:void(0);" title="자세히 보기" class="btn">자세히 보기</a>
+            </div>
+        </article>
+        <article class="gallery-slide">
+            <h2>갤러리 슬라이드</h2>
+            <div class="inner">
+                <h3>#제주드림타워 #JejuDreamTower</h3>
+                <div class="swiper gaSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide1.jpg" alt="인스타그램 이미지"></a>
+                    </div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide2.jpg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide3.jpg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide4.jpg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide5.jpg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide6.jpeg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide7.jpg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide8.jpg" alt="인스타그램 이미지"></a></div>
+                      <div class="swiper-slide"><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i><img src="./img/galleryslide9.jpg" alt="인스타그램 이미지"></a></div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"><i class='fas fa-arrow-circle-right'></i></div>
+                  <div class="swiper-button-prev"><i class='fas fa-arrow-circle-left'></i></div>
+                  <ul class="snsnav">
+                    <li><a href="javascript:void(0);" title="페이스북"><i class='fab fa-facebook-f'></i></a></li>
+                    <li><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i></a></li>
+                    <li><a href="javascript:void(0);" title="네이버"><img src="./img/sns_naverPost02.png" alt="네이버"></a></li>
+                    <li><a href="javascript:void(0);" title="카카오톡"><img src="./img/sns_kakaoCh02.png" alt="카카오톡"></a></li>
+                    <li><a href="javascript:void(0);" title="웨이보"><i class='fab fa-weibo'></i></a></li>
+                    <li><a href="javascript:void(0);" title="위쳇"><i class='fab fa-weixin'></i></a></li>
+                  </ul>
+            </div>
+        </article>
+        <article class="promotion">
+            <h2>프로모션</h2>
+            <div class="inner">
+                <div class="pr_box">
+                    <div class="pr_txt">
+                        <h3>뉴스레터를 구독하세요</h3>
+                        <p>최신 업데이트 및 프로모션을 받아 보세요</p>
+                    </div>
+                    <img src="./img/bg_newsletter01.jpg" alt="프로모션">
+                    <div class="pr_main">
+                        <h3>KEEP IN TOUCH</h3>
+                        <p>업데이트된 뉴스레터를 받아 보세요</p>
+                        <div class="entry">
+                            <input type="text" placeholder="00000@naver.com">
+                            <input type="submit" value="가입하기">
+                        </div>
+                        <input type="checkbox" id="pr_ch"><label for="pr_ch">개인정보 이용약관에 동의합니다.</label>
+                    </div>
+                </div>
+            </div>s
+        </article>
+        <aside>
+            <div class="top"><i class='fas fa-arrow-up'></i></div>
+        </aside>
+    </main>
+    <footer>
+        <nav>
+            <ul class="fo_nav">
+                <li>
+                    <ul class="fo_sub">
+                        <li><a href="javascript:void(0);" title="제주 드림타워">제주 드림타워</a></li>
+                        <li><a href="javascript:void(0);" title="오시는 길"> 오시는 길</a></li>
+                        <li><a href="javascript:void(0);" title="층별 안내">층별 안내</a></li>
+                        <li><a href="javascript:void(0);" title="미디어 센터">미디어 센터</a></li>
+                        <li><a href="javascript:void(0);" title="고객 센터">고객 센터</a></li>
+                        <li><a href="javascript:void(0);" title="롯데관광">롯데관광</a></li>
+                        <li><a href="javascript:void(0);" title="IR">IR</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="fo_sub">
+                        <li><a href="javascript:void(0);" title="개인정보처리방침">개인정보처리방침</a></li>
+                        <li><a href="javascript:void(0);" title="이용약관">이용약관</a></li>
+                        <li><a href="javascript:void(0);" title="인재채용">인재채용</a></li>
+                        <li><a href="javascript:void(0);" title="사이트 맵">사이트 맵</a></li>
+                        <li><a href="javascript:void(0);" title="갤러리">갤러리</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="fo_inner">
+            <h2><img src="./img/h1_jejuDreamTower01.png" alt="하단로고"></h2>
+            <address>
+                <p>롯데관광개발㈜</p>
+                <p>대표 :000, 00, 000  |  사업자 등록번호 : 000-00-00000</p>
+                <div class="ic_box">
+                    <i class='fas fa-phone-alt'></i>
+                    <i class='fas fa-print'></i>
+                    <i class='fas fa-envelope'></i>
+                    <i class='fas fa-map-marker-alt'></i>
+                </div>
+                <div class="ad_box">
+                    <p>1533-1234<br>해외 전용: +82-64-907-1234</p>
+                    <p>000-000-1235</p>
+                    <p>00000000@00000000000.com</p>
+                    <p>제주특별자치도 00시 00로 00</p>
+                </div>
+                <ul class="fo_sns">
+                    <li><a href="javascript:void(0);" title="페이스북"><i class='fab fa-facebook-f'></i></a></li>
+                    <li><a href="javascript:void(0);" title="인스타그램"><i class='fab fa-instagram'></i></a></li>
+                    <li><a href="javascript:void(0);" title="네이버"><img src="./img/sns_naverPost02.png" alt="네이버"></a></li>
+                    <li><a href="javascript:void(0);" title="카카오톡"><img src="./img/sns_kakaoCh02.png" alt="카카오톡"></a></li>
+                    <li><a href="javascript:void(0);" title="웨이보"><i class='fab fa-weibo'></i></a></li>
+                    <li><a href="javascript:void(0);" title="위쳇"><i class='fab fa-weixin'></i></a></li>
+                </ul>
+                <p>COPYRIGHT © 2020 0000 00000 00000. All rights reserved.</p>
+            </address>
+            <select onchange="siteUrl(this.value);" class="family">
+                <option value="">패밀리 사이트</option>
+                <option value="https://www.hyatt.com/ko-KR/home">그랜드 하얏트</option>
+            </select>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".maSwiper", {
+          spaceBetween: 30,
+          effect: "fade",
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          loop:true,
+          autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        });
+        var swiper = new Swiper(".coSwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        freeMode: true,
+        loop:true,
+         autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".gaSwiper", {
+        slidesPerView: 6,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      function siteUrl(url){
+            if(url!=""){
+                window.open(url,'_self');
+            }
+        }
+      </script>
+</body>
+</html>

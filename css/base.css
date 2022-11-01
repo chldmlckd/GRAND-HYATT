@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+body{
+    font-family:'Gowun Batang',arial,sans-serif;
+    color:#333;
+    font-size:12px;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+header{
+    position:fixed;
+    z-index:9999;
+}
+.headweb{
+    width:1420px;
+    height:94px;
+    margin:0px auto;
+    position:relative;
+    padding-top:25px;
+    box-sizing:border-box;
+}
+.headweb > a{
+    width: 254px;
+    display: block;
+}
+
+.headtop{
+    position:absolute;
+    top:10px;
+    right:0px;
+}
+.headtop ul {
+    display:flex;
+}
+.headtop ul li {
+    line-height:20px;
+    padding-right:10px;
+}
+.headtop ul li{
+    font-size:16px;
+    color:#B38859;
+}
+.headtop ul li i.fa-angle-down{
+    font-size:16px;
+    transform: translateY(-3px);
+}
+.headtop ul li a{
+    font-size:16px;
+    color:#B38859;
+}
+.headtop ul li a::after{
+    content: "|";
+    color:#B38859;
+    padding-left:10px;
+}
+.headbom{
+    position:absolute;
+    right:90px;
+    bottom:10px;
+    width:900px;
+}
+.gnb {
+    width:800px;
+    float: left;
+}
+.gnb>ul{
+    display:flex;
+}
+.gnb>ul>li{
+    padding:20px 100px 0px 0px;
+}
+.gnb>ul> li> a{
+    font-size:20px;
+    color:#B38859;
+}
+.gnb>ul> li> a:hover{
+    text-decoration:underline;
+}
+.sub{
+    position:absolute;
+    background-color: #fff;
+    overflow:hidden;
+}
+.sub1{
+    width:100px;
+    height:0px;
+    bottom:-11px;
+    transition:0.3s;
+}
+.gnb>ul> li:hover .sub1{
+    height:150px;
+    bottom:-161px;
+    border: 1px solid #ccc;
+    border-top:none;
+}
+.gnb .sub li{
+    font-size:16px;
+    color:#B38859;
+    padding:10px;
+}
+.gnb .sub li a{
+    font-size:16px;
+    color:#222;
+    padding:2px 0px 0px 10px;
+}
+.gnb .sub li a:hover{
+    color:#B38859;
+}
+.sub2{
+    bottom:-11px;
+    width: 395px;
+    height:0px;
+    transition: 0.3s;
+}
+
+.gnb>ul> li:hover .sub2{
+    height:265px;
+    bottom:-276px;
+    border: 1px solid #ccc;
+    border-top:none;
+}
+.sub2 .sub_room{
+    width:150px;
+    float:left;
+    padding-left:15px;
+
+}
+.sub2 .sub_room >li:first-child{
+    border-bottom: 1px solid #B38859;
+    width:100px;
+}
+.sub2 .sub_suite{
+    float: right;
+    padding-right:10px;
+}
+.sub2 .sub_suite >li:first-child{
+    border-bottom: 1px solid #B38859;
+    width:175px;
+}
+.sub3{
+    width:420px;
+    height: 0px;
+    bottom:-11px;
+    transition: 0.3s;
+}
+.gnb>ul> li:hover .sub3{
+    height:338px;
+    bottom:-349px;
+    border: 1px solid #ccc;
+    border-top:none;
+}
+.sub3 ul >li:first-child{
+    border-bottom: 1px solid #B38859;
+    width:100px;
+}
+.sub3 ul{
+    padding-left:10px;
+    float:left;
+}
+.sub3 ul:nth-of-type(4){
+    width:200px;
+}
+.sub4{
+    width:550px;
+    height: 0px;
+    bottom:-11px;
+    right: 180px;
+    transition: 0.3s;
+}
+.gnb>ul> li:hover .sub4{
+    height:193px;
+    bottom:-204px;
+    border: 1px solid #ccc;
+    border-top:none;
+}
+.sub4 ul >li:first-child{
+    border-bottom: 1px solid #B38859;
+    width:90px;
+}
+.sub4 ul{
+    padding-left:10px;
+    float:left;
+}
+.sub4 ul:nth-of-type(2)>li:first-child{
+    width:125px;
+}
+.sub4 li p{
+    text-align: right;
+    padding-right:30px ;
+    box-sizing: border-box;
+}
+#reserve{
+    font-family:'Gowun Batang',arial,sans-serif;
+    color:#B38859;
+    background-color:#fff;
+    border:1px solid #B38859;
+    width:100px;
+    height:35px;
+    float:right;
+    transform: translateY(10px);
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.2s;
+}
+#reserve:hover{
+    background-color:#B38859;
+    color:#fff;
+}
+footer{
+    background-color: #232D3A;
+}
+footer nav{
+    width:700px;
+    margin: 0px auto;
+    padding-top:30px;
+}
+footer .fo_nav .fo_sub{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.fo_sub li{
+    margin-left: 15px;
+}
+.fo_sub li::after{
+    content: "|";
+    color:#ccc;
+    padding-left: 15px;
+}
+.fo_sub li:last-child::after{
+    display:none;
+}
+.fo_sub li a{
+    color:#ccc;
+    font-size: 14px;
+}
+.fo_sub li a:hover{
+    text-decoration: underline;
+}
+.fo_inner{
+    width:1420px;
+    position: relative !important;
+    margin:0px auto;
+}
+.fo_inner >h2{
+    width:254px;
+    float: left;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+.fo_inner address{
+    color:#ccc;
+    font-size: 16px;
+    font-style: normal;
+    width: 500px;
+    margin:0px auto;
+    line-height: 25px;
+}
+.fo_inner address .ic_box{
+    position: absolute;
+    font-size: 18px;
+    width: 18px;
+    transform: translateY(10px);
+    text-align: center;
+}
+.fo_inner address .ic_box i.fas{
+    padding-bottom: 4px;
+}
+.fo_inner address .ic_box i.fas:first-child{
+    padding: 15px 0px;
+}
+.fo_inner address .ad_box{
+    padding-left: 30px;
+    margin:10px 0px 20px 0px;
+}
+.fo_inner address p:last-of-type{
+    color:#ccc;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.family{
+    position: absolute;
+    top:-73px;
+    right: 250px;
+    color:#fff;
+    outline: none;
+    background-color: #232D3A;
+    border-radius: 5px;
+    border: 2px solid #B38859;
+    font-size: 14px;
+    width:130px;
+    text-align: center;
+    padding: 3px 0px;
+    font-family: 'Gowun Batang',arial,sans-serif;
+}
+.fo_sns{
+    position: absolute;
+    top:-10px;
+    right: 20.5%;
+}
+.fo_sns li {
+    margin: 10px;
+  }
+.fo_sns li a{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    color:#999;
+    transition: 0.2s;
+  }
+  .fo_sns li:nth-child(3) a img{
+    width: 10px;
+    margin-top: 5px;
+  }
+  .fo_sns li:nth-child(4) a img{
+    width: 13px;
+    margin-top:4px;
+  }
+  .fo_sns li a:hover{
+    color:#fff;
+    background-color: #B38859;
+    border: 1px solid #B38859;
+  }
+
+.top{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    color:#fff;
+    background-color: #000;
+    font-size: 24px;
+    opacity: 0;
+    width: 44px;
+    height: 44px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+    z-index: 9998;
+}
+.top:hover{
+    animation: move infinite 1s;
+}
+@keyframes move{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-15px);}
+    100%{transform: translateY(0px);}
+}
